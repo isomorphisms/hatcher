@@ -2,7 +2,7 @@
 
 Author-hosted sources for Hatcher's works, plus separately identified companion books. Hatcher's list was reviewed 2026-10-13 against [his own book projects and course notes](https://pi.math.cornell.edu/~hatcher/).
 
-This directory links to sources; it does not redistribute PDFs, scanned pages, or extracted figures. All four of Hatcher's book projects and both sets of course notes on that page are included. The works by Casselman and Saveliev below are companion references, not works by Hatcher.
+This directory links to sources; it does not redistribute PDFs, scanned pages, or extracted figures. All four of Hatcher's book projects and both sets of course notes on that page are included. The works by Casselman, Francis, and Saveliev below are companion references, not works by Hatcher.
 
 ## Book projects
 
@@ -27,9 +27,10 @@ These are distinct authors' books requested for the same construction-driven ill
 | Work | Reading or catalog links | Version, availability, and relevance |
 | --- | --- | --- |
 | **Bill Casselman — Mathematical Illustrations: A Manual of Geometry and PostScript** | [Author-hosted manual](https://personal.math.ubc.ca/~cass/graphics/manual/) (individual PDF and PostScript chapters, example images, and source programs) | Cambridge University Press, 2005, ISBN 9780521547888 (paperback). Covers programmable construction of figures, curves, transformations, perspective, surfaces, and polyhedra. The author allows one personal-use copy, **not republication**; link to his originals rather than adding book pages or code to this repository. |
+| **George K. Francis — A Topological Picturebook** | [Springer publisher's book page and chapter list](https://link.springer.com/book/10.1007/978-0-387-68120-7) | Originally published by Springer, 1987 (ISBN 9780387964263); later softcover reissue published 2006 (ISBN 9780387345420), with a 2007 copyright notice. The 194-page book develops hand-drawn geometric and topological illustrations, including perspective, immersions and surfaces, sphere eversion, knots, and group pictures. The publisher offers purchase or licensed access; this catalog does **not** claim a freely redistributable PDF. |
 | **Peter Saveliev — Topology Illustrated** | [2016 book record](https://openlibrary.org/books/OL32936875M/Topology_Illustrated); [Internet Archive controlled-access copy](https://archive.org/details/topologyillustra0000save); [2024 Volume 1](https://books.google.com/books/about/Topology_Illustrated_Volume_1.html?id=a47w0AEACAAJ); [2024 Volume 2](https://www.amazon.com/Topology-Illustrated-2-Peter-Saveliev/dp/B0DJD1RNK9) | Original one-volume edition, 2016, ISBN 9781495188756; corrected/updated two-volume paper edition, 2024 (ISBNs 9798339106746 and 9798339263630). Covers topology, homology, complexes, spaces, homotopy, and discrete calculus, with more than 1,000 illustrations reported for the book. The 2016 archive copy is borrowing-restricted, **not an unrestricted downloadable text**. |
 
-**Figure-inventory status:** These two companion books are linked but **not yet inventoried**. Keep author, edition, printed page, and editorial figure ID together. Do not conflate Casselman's online chapter PDFs with the printed book's page offsets, or Saveliev's 2016 single volume with the revised 2024 volumes. An external figure is evidence of a mathematical construction to reconstruct, not permission to reproduce the artwork.
+**Figure-inventory status:** These three companion books are linked but **not yet inventoried**. Keep author, edition, printed page, and editorial figure ID together. Do not conflate Casselman's online chapter PDFs with the printed book's page offsets, Francis's 1987 original with the later reissue, or Saveliev's 2016 single volume with the revised 2024 volumes. An external figure is evidence of a mathematical construction to reconstruct, not permission to reproduce the artwork.
 
 ## Older spectral-sequence installments
 
