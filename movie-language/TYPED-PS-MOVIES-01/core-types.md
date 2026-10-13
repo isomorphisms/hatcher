@@ -11,12 +11,22 @@ These are semantic contracts, not executable declarations. Implementation must u
 | Checked construction | Named inputs, derived objects and the propositions advertised by the result |
 | Point in a coordinate frame | Coordinates with dimension, units and frame identity |
 | Segment between points | Endpoints that remain references to those points |
-| Nondegenerate triangle | Three points with a nonzero signed doubled area |
+| Nondegenerate placed triangle | Three named points in one declared frame with nonzero signed doubled area; this is a realization, not the definition of an abstract shape family |
 | Unique line intersection | Intersection point plus nonparallel-line evidence and incidence in both lines |
 | Region in a universe | Membership/subset meaning tied to one universe |
 | Conditional fraction | Numerator derived from event ∩ population; denominator from population; positivity or explicit undefined state |
 
 A phantom index or descriptive name is insufficient on its own. A constructor must require checked evidence, or the value must be created by a validated procedure whose success implies the stated proposition.
+
+## Families and isomorphisms before graphics
+
+The [Behrend triangle requirements](behrend-triangles.md) are part of these contracts. Preserve actual isomorphisms indexed by source and target, their composition/inverse laws, and distinct automorphisms. An existence proposition or a coarse shape coordinate cannot replace that correspondence data.
+
+A supported family over a parameter space carries continuous local constructions, overlap identifications and compatibility evidence. Pullback changes the parameter space and has identity/composition coherence. Effective gluing must be established for the covers the implementation actually supports; dependent indexing alone does not prove continuity or descent.
+
+Keep labelled/unlabelled and oriented/unoriented problems distinct. A persistent label needs an explicit labelling or local correspondence; sorting side lengths does not produce one. Do not erase isomorphism data needed to move labels or derived objects.
+
+Metric realizations additionally supply scale, units and placement. A path through shapes up to similarity cannot prove metric expansion, because similarity forgets size. Conversely, movement through a family need not be an isomorphism between earlier and later objects: the shape itself may change.
 
 ## Motion
 
@@ -28,17 +38,17 @@ A monotone time remapping must map the allowed interval to itself, have the spec
 
 The polynomial easing e(t) = 3t² − 2t³ is a useful first case on [0,1]: it has endpoints 0 and 1, and derivative 6t(1−t) is nonnegative. The implementation must establish the lemma rather than store a Boolean assertion.
 
-For sequential clips, check that the end state of the first equals the start state of the second. Continuity is a separate obligation from endpoint matching; differentiability and velocity matching are stronger optional obligations.
+For concrete sequential movie clips, check that the realized end state of the first matches the realized start state of the second. Abstract family endpoints may instead glue through a specified checked isomorphism, as detailed in the Behrend requirements; that does not waive size, placement, label or camera checks for the displayed seam. Continuity is a separate obligation from endpoint matching; differentiability and velocity matching are stronger optional obligations.
 
 Parallel changes share time and state identity and require compatibility of their writes or a proved combined construction. Independent property tracks cannot compete for the same mathematical parameter without a declared composition.
 
-A loop needs a checked join. A reverse operation changes order-sensitive contracts. A path morph needs a proof of the property it advertises; equal-length point arrays do not prove an isotopy.
+A loop needs a checked join. Retain the endpoint identification and its monodromy: a closed coarse-shape path need not return each vertex label. An abstract family loop and a displayed, labelled loop have different acceptance obligations. A reverse operation changes order-sensitive contracts. A path morph needs a proof of the property it advertises; equal-length point arrays do not prove an isotopy.
 
 ## Geometry and topology
 
 Distinguish a topological object from its chosen embedding, immersion, quotient presentation or projection.
 
-A map on a quotient must respect the equivalence relation. A deformation retraction must satisfy its endpoint and fixed-subspace laws and continuity. A regular homotopy must preserve immersion; it need not preserve embeddedness. Projected crossings and spatial self-intersections require different evidence.
+A map on a quotient must respect the equivalence relation. Where the object carries groupoid/stack structure, retain the isomorphism action and coherence too, rather than replacing the object by its coarse set of equivalence classes. A deformation retraction must satisfy its endpoint and fixed-subspace laws and continuity. A regular homotopy must preserve immersion; it need not preserve embeddedness. Projected crossings and spatial self-intersections require different evidence.
 
 Agda's cubical paths suggest useful identity and transport mechanisms. They are not automatically ordered Euclidean time or continuous geometric animations. Supply the interpretation that connects a formal path to the claimed topological map.
 
