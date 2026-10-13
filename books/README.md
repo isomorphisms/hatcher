@@ -2,7 +2,7 @@
 
 Author-hosted sources for this project. Reviewed 2026-10-13 against [Hatcher's own list of book projects and course notes](https://pi.math.cornell.edu/~hatcher/).
 
-This directory links to the books; it does not redistribute PDFs, scanned pages, or extracted figures. The four book projects and both sets of course notes listed on that page are included. Research papers and books by other authors are outside this catalog.
+This directory links to the books and preserves Hatcher's author-published Algebraic Topology EPS source figures under [`figures/algebraic-topology/`](figures/algebraic-topology/). It does not redistribute PDFs, scanned pages, or extracted page images. The four book projects and both sets of course notes listed on that page are included. Research papers and books by other authors are outside this catalog.
 
 ## Book projects
 
@@ -36,6 +36,6 @@ Follow the author's actual download links on that page; no guessed filenames are
 
 [Read the initial figure inventory](figures/README.md): 60 entries across the six works, with printed page locations, descriptions, and separate kinds for geometric pictures, algebraic diagrams, spectral-sequence charts, and tables. Of these, 45 are text-located and 15 are candidates. This is not yet a complete or visually verified census.
 
-Hatcher also provides [158 original Algebraic Topology figures in EPS format](https://pi.math.cornell.edu/~hatcher/AT/ATfigs.html), excluding commutative diagrams and similar diagrams. The inventory links the archive; it does not redistribute it or claim its individual files have been catalogued.
+Hatcher also provides [158 original Algebraic Topology figures in EPS format](https://pi.math.cornell.edu/~hatcher/AT/ATfigs.html), excluding commutative diagrams and similar diagrams. Their exact PostScript source is preserved in [`figures/algebraic-topology/original-eps/`](figures/algebraic-topology/original-eps/), with archive provenance and per-file SHA-256 records. These source filenames have not yet been fully matched to printed pages or editorial inventory IDs.
 
 Unnumbered illustrations receive editorial identifiers rather than invented Hatcher figure numbers. Unchecked pages and uncertain figure boundaries remain explicit: a page may contain several figures, and a single figure may have several panels.
