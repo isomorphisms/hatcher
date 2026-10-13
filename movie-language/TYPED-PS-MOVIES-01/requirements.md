@@ -62,6 +62,64 @@ Before accepting the shared semantic interfaces, preserve parameter families, ac
 
 The supplement assigns these obligations and targeted invalid cases to the existing PS-MOV jobs. A full general stack implementation is not required before the first coordinate-triangle render; permanently erasing correspondence or gluing data from the language is not permitted.
 
+## Mandatory deformation-aware transformations
+
+User requirement, 2026-10-13: transformations should know whether they are travelling in a versal family. This extends the Behrend family contract above. It is a design requirement, not a claim of implemented deformation theory or checked versality.
+
+### The deformation problem and evidence are part of the type
+
+Retain the deformation problem: objects, admissible deformations, allowed equivalences, markings, ground field and category. Formal, algebraic, analytic, smooth and topological claims must not be silently interchanged. Versality is relative to this problem and a specified base point or germ; a claim over a larger locus requires evidence throughout that locus.
+
+Proposed interfaces, not compiler-tested syntax:
+
+```text
+family          : Family over base for deformationProblem
+versalAt        : VersalAt deformationProblem family basePoint
+parameterPath   : AdmissibleMap timeDomain base
+travellingFamily ← pullback parameterPath family
+```
+
+A versality certificate must carry its hypotheses and evidence provenance. Keep machine-checked proofs, cited mathematical theorems with explicit assumptions, and unresolved obligations distinct. Unknown versality is not non-versality, and an author-supplied Boolean cannot grant a verified capability.
+
+Keep these claims separate:
+
+- Versal: the appropriate compatible lifting property for the declared deformation problem.
+- Miniversal: versal with the specified minimality condition; in the usual fixed-field tangent-space setting, no redundant first-order deformation directions.
+- Universal: the applicable representing property, with its precise uniqueness or groupoid-equivalence statement. Retain automorphisms; do not substitute a coarse moduli space or infer universality from miniversality.
+
+In the formal setting, the contract must address compatible lifts across the allowed small extensions of local Artinian rings, including the required isomorphism data. First-order tangent coverage alone is not a general proof of versality. A theorem reducing the check to tangent data must bring all its hypotheses with it.
+
+### Travelling inside a versal family is not being versal
+
+The motion retains both its ambient family and the parameter map. The actual time-indexed family must be identified with the pullback through a checked comparison, not merely produce similar-looking fibres.
+
+Do not transfer an ambient versality certificate to an arbitrary path or parameter slice. A smooth one-parameter slice can miss deformation directions available in a two-parameter family. Reindexing preserves the pullback provenance, not every universal property. A certificate at the starting point also does not establish versality everywhere along the journey.
+
+For successive parameter changes, retain the existing coherent comparison between pullback along a composite and successive pullbacks. Captions and linked views must distinguish “path in this versal family” from “this restricted family is versal.”
+
+The family supplies fibres; it does not automatically supply a canonical correspondence between their individual points. Tracking a vertex or other feature requires its own section, covering lift, chosen trivialization or other justified transport. A dependent family is not automatically a type-theoretic path identifying all fibres as equivalent.
+
+### Realization, strata and changing guarantees
+
+A formal deformation certificate does not by itself provide an evaluable movie at ordinary nonzero real times. Require an effective/convergent geometric realization as appropriate, an explicit comparison to the formal model, and the existing numerical bounds before rendering such a claim.
+
+Triviality, isotriviality, smoothness and equisingularity are separate refinements, not mutually exclusive alternatives to versality. When a construction uses a discriminant or stratification, retain the path's membership, avoidance or crossing evidence. Do not infer preserved topology or symmetry merely from versality. Unsupported or undecided events remain explicit; sampled frames cannot certify their absence.
+
+### Required exact acceptance additions
+
+These are proposed fixtures, not executed tests.
+
+1. For the represented formal deformation problem with base k[[u,v]], accept the base change u ↦ t, v ↦ 0 as a family over k[[t]], but reject its claim to versality for the full two-direction problem. Its tangent map misses the v direction. Retain its provenance in the universal ambient family.
+2. Use the inclusion of the dual-number base k[z]/(z²) into the formal line as a tangent-isomorphism counterexample. The deformation u ↦ ε over k[ε]/(ε³) restricts to z ↦ ε over k[ε]/(ε²), but cannot lift through k[z]/(z²), since ε² ≠ 0 in the larger ring. Reject a versality certificate based only on the tangent isomorphism.
+3. Reject promotion from a certificate at one base point to a whole interval, from formal versality to real-time evaluation without a realization, or from a family path to canonical feature transport without supporting data.
+4. Check a declared discriminant crossing in an exact supported example; reject an incompatible smooth-fibre or fixed-stratum claim. Preserve the original monotonicity, marking and loop checks independently.
+
+PS-MOV-01 owns problem-indexed family properties and evidence status. PS-MOV-02 owns parameter paths, pullback comparisons, certificate scope and transport. PS-MOV-03 must expose the distinctions without forcing authors to restate the mathematics. PS-MOV-08 binds linked views and captions to them. PS-MOV-09 independently checks the positive and negative fixtures. Bind this requirement revision into those jobs' next admitted inputs; do not start a parallel campaign.
+
+Mathematical references for this extension: Stacks Project, [smooth morphisms of deformation categories, Tag 06HG](https://stacks.math.columbia.edu/tag/06HG), [versal formal objects, Tag 06SX](https://stacks.math.columbia.edu/tag/06SX), [minimality and tangent spaces, Tag 06IL](https://stacks.math.columbia.edu/tag/06IL), and [versal rings and local scope, Tag 0DQT](https://stacks.math.columbia.edu/tag/0DQT). The contracts and exact counterexamples above are our design application; they are not attributed to Behrend as a programming-language proposal.
+
+This amendment records requirements only. It dispatches no job, claims no proof typecheck or rendered output, and grants no merge or release authority. Existing Flexible Pipes admission, Kitchen execution and independent ai-ci acceptance remain required for implementation.
+
 ## Observable acceptance
 
 - The expanding disk accepts a proved increasing trajectory and rejects a shrinking trajectory.
