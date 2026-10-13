@@ -8,6 +8,23 @@ Next qualify the expanding disk and the corrected Venn movie. Then add Casselman
 
 Do not postpone mathematical identity or throughout-motion invariants while making a visually polished demonstration.
 
+## Required Behrend integration
+
+The [Behrend triangle addendum](behrend-triangles.md), requested by the user on 2026-10-13, extends the contracts and acceptance criteria below. It is not an optional bibliography item. Bind its actual revision into the next FP-admitted inputs of the affected existing jobs.
+
+Keep the initial triangle milestone narrow, but make its interface distinguish a placed, labelled triangle from an abstract shape and a family. Implement supported symmetry/correspondence cases incrementally; do not require a complete theory of algebraic stacks before drawing the first triangle.
+
+| Existing job | Added obligation |
+| --- | --- |
+| PS-MOV-01 | Source/target-indexed isomorphisms, retained automorphisms, label/orientation choices, shape versus metric realization |
+| PS-MOV-02 | Continuous families, pullback/reindexing, compatible local descriptions, abstract endpoint gluing, monodromy, and a separate realized expansion law |
+| PS-MOV-03 | Authoring syntax must not conflate shape equality, isomorphism, motion or display identity |
+| PS-MOV-04 / PS-MOV-06 | Drawing, seeking and export retain the specified correspondence and enforce the realized seam |
+| PS-MOV-08 | All linked views use the same family, correspondence data and accepted parameter |
+| PS-MOV-09 | Independently qualify addendum cases A–E: symmetry/labels, twisted versus untwisted loops, incompatible overlap gluing, pullback coherence, and same-shape expansion versus shrinkage |
+
+The full assignments in jobs.md predate this addition and must be delivered together with these requirements, not dispatched from stale standalone copies. This is an extension of the existing work, not a new parallel campaign. Unsupported continuity, gluing or proof-checking capabilities remain explicit gaps; none is already implemented by this document.
+
 ## Nine jobs covering twelve original boundaries
 
 | Job | Covered original boundaries | Primary owner | Required predecessors |
@@ -34,12 +51,14 @@ Do not send all repetitive implementation through Sun. Do not force every job to
 
 | Milestone | Completion evidence |
 | --- | --- |
-| M1 construction | Checked triangle, derived PS figure and rejected collinear construction |
-| M2 motion | Whole-interval nondegeneracy and expansion; rejected shrinking, midpoint collapse and invalid remapping |
+| M1 construction | Checked triangle, derived PS figure and rejected collinear construction; placed/labelled realization distinguished from abstract shape |
+| M2 motion | Whole-interval nondegeneracy and expansion; rejected shrinking, midpoint collapse and invalid remapping; similarity cannot substitute for growth evidence |
 | M3 actual output | Geometry-to-PS trace, rendered stills and decoded movie; targeted serializer/render mutants rejected |
 | M4 Venn | Correct universe complement, question identity, undefined empty denominator and lawfully evolving weights |
 | M5 linked book construction | Source edition/page confirmed; one parameter causally updates all views and captions |
 | M6 follower representation | Native framebuffer/subpixel or GPU path actually consumes the qualified construction, with explicit bounds and target-specific evidence |
+
+Behrend family acceptance is separately tracked through cases A–E. Passing M1 or M2 does not imply that general families, descent or twisted loops are implemented.
 
 Unsupported arithmetic, proof transfer or lowering is a capability gap. Record the smallest concrete gap and its owner; do not silently use an oracle, RefC, generated C, a browser runtime or handwritten shader as the requested implementation.
 
@@ -47,7 +66,7 @@ Unsupported arithmetic, proof transfer or lowering is a capability gap. Record t
 
 A standalone general language/compiler, arbitrary nonlinear theorem proving, automatic certification of every imported mesh, a complete PostScript implementation, narration generation, a new media encoder and a full verified hardware stack are outside the first slice.
 
-Retain these as explicit questions where relevant, without treating them as prerequisites for the checked triangle and disk.
+Retain these as explicit questions where relevant, without treating them as prerequisites for the checked triangle and disk. General algebraic-stack machinery and compactifications likewise remain outside the first slice; this does not permit erasing the required family/correspondence distinctions from its interface.
 
 ## Durable handoffs
 
