@@ -8,18 +8,24 @@ A movie program should state what is constructed and which relationships its mov
 
 This is an implementable design and job packet. No new compiler proof, rendered movie, GPU execution or physical-device acceptance is claimed by this planning result.
 
+## Required Behrend extension
+
+[Behrend triangles — required pre-graphics semantics](behrend-triangles.md) incorporates the user's subsequent requirement that Kai Behrend's *Introduction to Algebraic Stacks*, especially its stack-of-triangles treatment, shape the language itself.
+
+This is not just another reference: retain families, explicit isomorphisms and automorphisms, pullbacks, compatible local descriptions and loop monodromy. Distinguish abstract shape from metric realization, so similarity cannot certify expansion. The addendum specifies contracts, positive/negative cases and amendments to the existing jobs; bind it into their next admitted inputs. It creates no separate project or job dispatch.
+
 ## Eight deliverables
 
-1. [Requirements](requirements.md)
+1. [Requirements](requirements.md), extended by [Behrend semantics](behrend-triangles.md)
 2. [Architecture and language decision](architecture.md)
 3. [Core types and proof obligations](core-types.md)
-4. [Examples and invalid cases](examples.md)
+4. [Examples and invalid cases](examples.md), extended by cases A–E in [Behrend semantics](behrend-triangles.md)
 5. [Execution, interaction and export](execution.md)
-6. [Reference study](references.md)
+6. [Reference study](references.md), with the Behrend primary source and reading map in the addendum
 7. [Implementation plan](implementation-plan.md)
-8. [Nine complete Sun jobs](jobs.md)
+8. [Nine complete Sun jobs](jobs.md), subject to the addendum's explicit integration requirements
 
-[Source state](source-state.tsv) binds the repository observations. [Planning receipt](receipt.tsv) distinguishes source inspection and design from implementation evidence.
+[Source state](source-state.tsv) binds the original repository observations. [Planning receipt](receipt.tsv) distinguishes that original source inspection and design from implementation evidence. The Behrend addendum records its own source and design-only status; the earlier receipt is not a new implementation or acceptance run for the addition.
 
 The recovered original assignment proposed twelve boundaries and requested 8–12 Sun jobs. The nine jobs retain all twelve boundaries, combining objects with geometry, time with transformations, and the book example with its linked controls. The current request adds all ten animation references and explicit comparison with Idris 2, Agda and Rocq.
 
