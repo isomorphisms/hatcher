@@ -34,6 +34,8 @@ Follow the author's actual download links on that page; no guessed filenames are
 
 ## Figure inventory
 
-The figure inventory belongs under `books/figures/`. Each entry must identify the work, the version actually inspected, the printed page, and a description. Where an illustration is unnumbered, assign an editorial identifier rather than inventing a Hatcher figure number. Geometric pictures, commutative diagrams, spectral-sequence charts, and tables must be distinguishable.
+[Read the initial figure inventory](figures/README.md): 60 entries across the six works, with printed page locations, descriptions, and separate kinds for geometric pictures, algebraic diagrams, spectral-sequence charts, and tables. Of these, 45 are text-located and 15 are candidates. This is not yet a complete or visually verified census.
 
-A source catalog is not a completed figure census. Record unchecked pages and uncertain figure boundaries explicitly. A page may contain several figures, and a single figure may have several panels.
+Hatcher also provides [158 original Algebraic Topology figures in EPS format](https://pi.math.cornell.edu/~hatcher/AT/ATfigs.html), excluding commutative diagrams and similar diagrams. The inventory links the archive; it does not redistribute it or claim its individual files have been catalogued.
+
+Unnumbered illustrations receive editorial identifiers rather than invented Hatcher figure numbers. Unchecked pages and uncertain figure boundaries remain explicit: a page may contain several figures, and a single figure may have several panels.
