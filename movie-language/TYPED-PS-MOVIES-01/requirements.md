@@ -54,6 +54,14 @@ Every example must ultimately provide a checked construction, a PostScript figur
 
 The early Casselman progression is triangle → pentagon and diagonal intersections → bounded Bézier approximation of the graph of x⁴. A regular pentagon needs algebraic or certified trigonometric values; rounded coordinates are not evidence of exact regularity.
 
+## Mandatory Behrend pre-graphics semantics
+
+Kai Behrend's *Introduction to Algebraic Stacks*, especially its stack of triangles, must inform the language itself, not merely appear in a bibliography or rendered example. The [Behrend triangle-family supplement](behrend-triangle-families.md) is part of these requirements.
+
+Before accepting the shared semantic interfaces, preserve parameter families, actual isomorphisms and automorphisms, local presentations, pullback and its coherence, and witnessed gluing. Coarse shape equality cannot certify family equality. Marked and unmarked loops require different closure conditions, and physical expansion must not disappear when shape is normalized up to similarity.
+
+The supplement assigns these obligations and targeted invalid cases to the existing PS-MOV jobs. A full general stack implementation is not required before the first coordinate-triangle render; permanently erasing correspondence or gluing data from the language is not permitted.
+
 ## Observable acceptance
 
 - The expanding disk accepts a proved increasing trajectory and rejects a shrinking trajectory.
