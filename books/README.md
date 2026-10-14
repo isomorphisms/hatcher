@@ -46,8 +46,15 @@ Follow the author's actual download links on that page; no guessed filenames are
 
 ## Figure inventory
 
-[Read the initial figure inventory](figures/README.md): 60 entries across the six works, with printed page locations, descriptions, and separate kinds for geometric pictures, algebraic diagrams, spectral-sequence charts, and tables. Of these, 45 are text-located and 15 are candidates. This is not yet a complete or visually verified census.
+[Read the figure inventory](figures/README.md): **92 active editorial records across the six works**, comprising **52 visually checked, 35 text-located, and 5 candidates**. One rejected candidate is preserved separately and excluded from these totals. The overall census is incomplete.
 
-Hatcher also provides [158 original Algebraic Topology figures in EPS format](https://pi.math.cornell.edu/~hatcher/AT/ATfigs.html), excluding commutative diagrams and similar diagrams. The inventory links the archive; it does not redistribute it or claim its individual files have been catalogued.
+Completed first visual sweeps:
 
-Unnumbered illustrations receive editorial identifiers rather than invented Hatcher figure numbers. Unchecked pages and uncertain figure boundaries remain explicit: a page may contain several figures, and a single figure may have several panels.
+- [Point-Set Topology](figures/point-set-topology.md): all 53 PDF pages; 28 active records, including one table; complete page ledger and correction history.
+- [Algebraic Topology, Chapter 0](figures/algebraic-topology-ch0.md): all 20 printed pages in the specified UCR reading copy; 24 records, including inline graph groups and algebraic diagrams; complete chapter ledger.
+
+The inventories separate printed labels from one-based PDF page numbers and identify source-copy limitations. No source-byte checksums or independent second review have been established. Other chapters and works still need visual sweeps.
+
+Hatcher also provides [158 original Algebraic Topology figures in EPS format](https://pi.math.cornell.edu/~hatcher/AT/ATfigs.html), excluding commutative diagrams and similar diagrams. The inventory links the archive; it does not redistribute it or claim its individual files have been catalogued or matched to pages.
+
+Unnumbered illustrations receive editorial identifiers rather than invented Hatcher figure numbers. Groups, tables, repeated placements, candidates, and rejected records remain distinct; inventory totals are not unique-artwork or component-panel counts.
