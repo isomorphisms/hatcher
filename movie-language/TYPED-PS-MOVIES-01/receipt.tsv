@@ -1,0 +1,23 @@
+field	value
+job_id	TYPED-PS-MOVIES-01
+owner_repository	isomorphisms/hatcher
+observed_date	2026-10-13T15:58:31Z; collection occurred over the preceding planning session
+base_head	30d7f45a1dbf2eae14b9d9c58d41b69d2b8ecab4
+contract	planning requirements recovered through summaries plus current user correction
+result	DESIGN_AND_JOB_PACKET
+original_prompt_verbatim	NOT_RECOVERED; bounded requirement summaries recovered
+source_review	COMPLETE_FOR_DECLARED_BOUNDED_PATHS
+architecture_decision	Idriç-integrated constructions and motions; small checked scene description
+required_deliverables	8
+sun_jobs_authored	9; covers twelve original boundaries
+proof_typecheck	NOT_RUN
+compiler_runtime	NOT_RUN
+ps_render	NOT_RUN
+movie_decode	NOT_RUN
+framebuffer_gpu	NOT_RUN
+physical_acceptance	NOT_RUN
+fp_admission	NOT_RUN; publication of a design candidate does not establish admission or dispatch
+job_dispatch	NOT_RUN
+first_implementation_dependency	qualify exact numeric/witness support for triangle in PS-MOV-01
+source_figure_verification	PENDING; inventory text/contents evidence retained; Hatcher primary PDF fetch timed out
+next_consumer	SUN PS-MOV-01 and independent acceptance design in PS-MOV-09
