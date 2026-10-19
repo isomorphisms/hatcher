@@ -18,7 +18,9 @@ Visual inspection could not be completed in this pass. No row is marked visually
 
 Hatcher's [original-figure page](https://pi.math.cornell.edu/~hatcher/AT/ATfigs.html) links an [EPS archive](https://pi.math.cornell.edu/~hatcher/AT/ATfigures.zip) and states that it contains **158 figures**, excluding commutative diagrams and similar diagrams.
 
-That is the author's archive count, not the number inventoried below. The archive's individual filenames have not yet been enumerated or matched to book pages. The archive and the page inventory must eventually be reconciled; adding 158 to the row count would double-count overlapping material.
+All 158 author-supplied figure programs are preserved byte-for-byte in [`algebraic-topology/original-eps/`](algebraic-topology/original-eps/). The original filenames end in `.ps`, but every file declares itself as EPSF-3.0. [Archive provenance](algebraic-topology/README.md) records the source URL and archive digest; [`SHA256SUMS`](algebraic-topology/SHA256SUMS) records each exact file. macOS packaging metadata was not imported.
+
+The author's archive count is not added to the inventory-row count below. The source filenames still need to be matched to printed pages and editorial IDs; adding 158 to the row count would double-count overlapping material.
 
 ## Coverage
 
